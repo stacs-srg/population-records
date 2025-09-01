@@ -29,7 +29,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-@SuppressWarnings({"unused", "WeakerAccess"})
+@SuppressWarnings("WeakerAccess")
 public class Death extends StaticLXP {
 
     public static final String ROLE_DECEASED = "ROLE_DECEASED";
@@ -57,7 +57,7 @@ public class Death extends StaticLXP {
         super();
     }
 
-    public Death(long persistent_Object_id, Map properties, IBucket bucket) throws PersistentObjectException {
+    public Death(String persistent_Object_id, Map properties, IBucket bucket) throws PersistentObjectException {
 
         super(persistent_Object_id, properties, bucket);
     }

@@ -29,7 +29,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-@SuppressWarnings({"unused", "WeakerAccess"})
+@SuppressWarnings("WeakerAccess")
 public class Birth extends StaticLXP {
 
     public static final String ROLE_BABY = "ROLE_BABY";
@@ -53,7 +53,7 @@ public class Birth extends StaticLXP {
         super();
     }
 
-    public Birth(long persistent_object_id, Map properties, IBucket bucket) throws PersistentObjectException {
+    public Birth(String persistent_object_id, Map properties, IBucket bucket) throws PersistentObjectException {
 
         super(persistent_object_id, properties, bucket);
     }
